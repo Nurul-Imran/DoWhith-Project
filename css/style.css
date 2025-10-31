@@ -23,6 +23,10 @@ img{
 ul, ol{
     list-style-type: none;
     margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, span{
+    line-height: 100%;
 }
 @media (min-width: 1400px){
     .container{
@@ -340,3 +344,89 @@ ul, ol{
     bottom: 0px;
 }
 /* Feature Section CSS End */
+
+/* Hassle Free Section CSS Start */
+#hassle_free{
+    padding: 132px 0 100px;
+}
+.hassle_free_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 126px;
+}
+.hassle_free_video{
+    width: 600px;
+    height: 600px;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.30)), url('../images//banner_big_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hassle_free_video .play_svg{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.hassle_free_content{
+    width: 514px;
+}
+.hassle_free_content h2{
+    font-size: 52px;
+    font-weight: 700;
+    color: #192252;
+}
+.hassle_free_content p{
+    width: 421px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #848FAC;
+    margin: 24px 0 40px;
+}
+.hassle_free_list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.hassle_free_list li{
+    display: flex;
+    align-items: center;
+    column-gap: 29px;
+}
+.hassle_free_list li > span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #192252;
+}
+/* Hassle Free Section CSS End */
+
+/* Company Section Start */
+#company{
+    padding: 40px 0 82px;
+}
+.company_heading h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #848FAC;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.company_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.company_list .company_logo{
+    width: 208px;
+}
+.company_logo > img{
+    width: 50%;
+}
+/* Company Section End */
