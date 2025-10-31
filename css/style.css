@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6, p, span{
 }
 /* Hassle Free Section CSS End */
 
-/* Company Section Start */
+/* Company Section CSS Start */
 #company{
     padding: 40px 0 82px;
 }
@@ -429,4 +429,188 @@ h1, h2, h3, h4, h5, h6, p, span{
 .company_logo > img{
     width: 50%;
 }
-/* Company Section End */
+/* Company Section CSS End */
+
+/* Price Section CSS Start */
+#price{
+    padding: 100px 0;
+}
+.price_heading{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.price_heading h2{
+    font-size: 52px;
+    font-weight: 700;
+    color: #192252;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+.price_heading p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #848FAC;
+}
+.price_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 64px;
+}
+.plan_list_boxes{
+    width: 515px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.plan_list_box{
+    padding: 24px;
+    border: 1.5px solid #EFF3FA;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+.check_box input[type="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 24px;
+    height: 24px;
+    border: 1.5px solid #848FAC;
+    border-radius: 50%;
+    position: relative;
+    transition: all 0.2s ease;
+}
+.check_box input[type="radio"]:checked{
+    background-color: #fff;
+    border-color: #fff;
+}
+input[type="radio"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: #6245D5;
+  border-radius: 50%;
+}
+.plan_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.plan_desc h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #192252;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color linear 0.3s;
+}
+.plan_desc h4 .price_save{
+    padding: 4px 12px;
+    display: inline-block;
+    border-radius: 11px;
+    background-color: #21965314;
+    color: #219653;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all linear 0.3s;
+}
+.plan_desc p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #848FAC;
+    max-width: 236px;
+    margin: 0;
+    line-height: 130%;
+    transition: color linear 0.3s;
+}
+.plan_price .plan_price_amount{
+    font-size: 32px;
+    font-weight: 700;
+    color: #192252;
+    transition: color linear 0.3s;
+    text-transform: uppercase;
+}
+.plan_price .plan_price_duration{
+    font-size: 16px;
+    font-weight: 500;
+    color: #848FAC;
+    transition: color linear 0.3s;
+}
+.plan_list_box:hover{
+    background-color: #6245D5;
+}
+.plan_list_box:hover .plan_desc>h4, .plan_list_box:hover .plan_price_amount{
+    color: #fff;
+}
+.plan_list_box:hover .plan_desc>p, .plan_list_box:hover .plan_price_duration{
+    color: #FFFFFFA3;
+}
+.plan_list_box:hover .price_save{
+    background-color: #FFFFFF14;
+    color: #FFFFFFCC;
+}
+.plan_benefits{
+    width: 525px;
+    padding: 48px;
+    padding-bottom: 68px;
+    background-color: #F7F7F7;
+    border-radius: 16px;
+}
+.plan_benefits_btn{
+    padding: 4px;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    width: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.plan_benefits_btn button{
+    padding: 12px 16px;
+    border-radius: 22px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #848FAC;
+    background-color: transparent;
+    transition: all linear 0.3s;
+}
+.plan_benefits_btn button:last-child{
+    padding: 12.5px 22px;
+    border-radius: 22px;
+}
+.plan_benefits_btn .active{
+    background-color: #FC9770;
+    color: #fff;
+}
+.plan_benefits_list{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    margin-top: 48px;
+}
+.plan_benefits_list li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan_benefits_list li span{
+    color: #192252;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+/* Price Section CSS End */
