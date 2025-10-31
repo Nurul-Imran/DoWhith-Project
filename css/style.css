@@ -224,3 +224,119 @@ ul, ol{
 }
 
 /* Counter Section CSS End */
+
+/* Feature Section CSS Start */
+#feature{
+    padding-top: 100px;
+    background-color: #201353;
+}
+.feature_heading{
+    display: flex;
+    gap: 171px;
+}
+.feature_heading h2{
+    width: 514px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+}
+.feature_heading p{
+    width: 555px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%;
+    color: rgba(255, 255, 255, 0.64);
+    margin-top: 18px;
+}
+.feature_main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.feature_transactions{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.feature_transactions .transaction{
+    width: 368px;
+    border-radius: 16px;
+    padding: 24px;
+    background-color: #fff;
+}
+.transaction .transaction_heading{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.transaction_heading h4{
+    color: #192252;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    margin: 0;
+    text-transform: capitalize;
+}
+.transaction > p{
+    margin-top: 16px;
+    color: #848FAC;
+    font-size: 16px;
+    line-height: 150%;
+}
+.transaction .progress{
+    margin-top: 24px;
+    background-color: #EFF3FA;
+    position: relative;
+    width: 320px;
+    height: 4px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.transaction .progress::after{
+    position: absolute;
+    content: "";
+    background-color: #6245D5;
+    width: 50%;
+    height: 4px;
+    border-radius: 2px;
+    left: 0;
+    top: 0;
+}
+.feature_transactions .history{
+    background-color: #201353;
+    border: 1.5px solid #2C1A74;
+    padding: 23px 24px;
+}
+.history_heading h4{
+    color: #ffffff;
+}
+.history .skilition1{
+    width: 307px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: #FFFFFF4D;
+    margin-top: 20px;
+}
+.history .skilition2{
+    width: 287px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: #FFFFFF4A;
+    margin-top: 20px;
+    margin: 10px 0 26px;
+}
+.history .skilition3{
+    width: 320px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #FFFFFF26;
+}
+.feature_img{
+    width: 731px;
+    position:  relative;
+    right: -47px;
+    bottom: 0px;
+}
+/* Feature Section CSS End */
