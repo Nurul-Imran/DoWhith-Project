@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, p, span{
 #navbar{
     width: 100%;
     padding: 23px 0;
-    filter: blur(4);
+    filter: blur(4px);
     background: rgba(255, 2555, 255, 0.20);
     position: absolute;
     top: 0;
@@ -760,7 +760,7 @@ input[type="radio"]:checked::before {
     font-size: 18px;
     font-weight: 700;
     color: #FFFFFF;
-    letter-spacing: 0.2;
+    letter-spacing: 0.2px;
     margin-top: 16px;
     margin-bottom: 24px;
 }
