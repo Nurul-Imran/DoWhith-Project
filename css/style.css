@@ -614,3 +614,171 @@ input[type="radio"]:checked::before {
     text-transform: capitalize;
 }
 /* Price Section CSS End */
+
+/* Review Section CSS Start */
+#review{
+    padding: 100px 0;
+    background-color: #201353;
+}
+.review_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 151px;
+}
+.review_main{
+    width: 489px;
+}
+.review_heading h2{
+    font-size: 52px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 120%;
+    max-width: 434px;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+.review_heading p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFFA3;
+    line-height: 150%;
+    margin: 0;
+}
+.review_icon{
+    margin: 64px 0 48px;
+}
+.review_details p{
+    margin-bottom: 46px;
+}
+.review_details p, .review_details .reviewer_name{
+    line-height: 150%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.review_details .reviewer_name{
+    color: #FFFFFFA3;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.reviewer_images_main{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.reviewer_imges{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.reviewer_img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+.reviewer_img:nth-child(2){
+    opacity: 75%;
+}
+.reviewer_img:nth-child(3){
+    opacity: 50%;
+}
+.reviewer_img:last-child{
+    opacity: 25%;
+}
+.reviewer_img img{
+    height: 100%;
+}
+.next_button{
+    width: 64px;
+    height: 64px;
+    border: 1.5px solid #FFFFFFA3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.contact_form_main{
+    width: 600px;
+    padding: 64px 80px;
+    background-color: #FFFFFF1F;
+    border-radius: 24px;
+    margin: 0 auto; 
+}
+.contact_form_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+.contact_form_heading_logo{
+    width: 68px;
+}
+.contact_form_heading h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.input_group{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-bottom: 24px;
+}
+.input_group label{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.input_group input, .input_group textarea{
+    width: 100%;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #848FAC;
+    outline: none;
+    border: none;
+}
+.input_group textarea{
+    height: 84px;
+}
+.contact_form .submit_btn{
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    background-color: #FC9770;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 0.2;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.contact_form a{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 150%;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    cursor: pointer;
+}
+.contact_form a > span{
+    font-weight: 400;
+    color: #FFFFFFA3;
+}
+/* Review Section CSS End */
